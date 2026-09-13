@@ -1,0 +1,48 @@
+body{
+    font-family: Arial;
+    margin:0;
+    padding:0;
+    background-color:seashell
+}
+
+h1{text-align:center;}
+h2{text-align:center;}
+#name{
+    text-align:center;
+}
+hr{
+    color:beige
+}
+p{
+    text-align:center;
+    font-size:22px;
+
+}
+nav{
+    background-color:bisque;
+    padding:10px;
+    text-align:center
+}
+nav a{
+    color:gray;
+    margin:20px;
+}
+nav a:hover{
+    color:blue;
+}
+
+.Photolar{
+    display:block;
+    margin: auto;
+    border-color:black;
+    border-radius:50%;
+    max-width:300px;
+}
+.lists{
+    width: 320px;
+    margin: 0 auto; 
+    font-size:20px;
+}
+#socsety{
+   text-align:center
+}
