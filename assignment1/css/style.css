@@ -19,7 +19,7 @@ p{
 
 }
 nav{
-    background-color:bisque;
+    background-color:burlywood;
     padding:20px;
     text-align:center
 }
@@ -159,8 +159,88 @@ nav a:hover{
     border-radius: 5px;
     font-family: 'Montserrat', sans-serif;
 }
-.full hover{
-    background-color:#d79e78;
+#heading{
+    text-align:center;
+    font-size:32px;
+}
+.titles{
+    text-align:center;
+    margin: 20px 0 15px 0;
+}
+
+.grades{
+    width:70%;
+    margin: 0 auto;               
+    border-collapse: collapse;    
+    text-align: center;
+}
+
+.grades th,
+.grades td{
+    border:2px solid gray;
+    padding:14px;
+}
+
+.grades th {
+    background-color: cadetblue;
+    color: white;
+}
+
+.grades tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.row td {
+    background-color:cornflowerblue;   
 }
 
 
+.form {
+    width: 70%;                 
+    margin:0 auto 50px auto;  
+    background-color:burlywood;
+    padding: 25px;
+    border-radius: 10px;    
+    box-sizing: border-box;      
+}
+
+.form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+
+.inputs {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.radio-button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.radio-button label {
+    display: inline;
+    margin-right: 15px;
+}
+
+.submit-button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: cadetblue;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    border:none;
+}
+
+.submit-button:hover {
+    background-color: darkgoldenrod;
+}

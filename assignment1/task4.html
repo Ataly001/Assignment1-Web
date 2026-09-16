@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table and Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <hr>
+    <h1 id="heading">Table and Form</h1>
+    <hr>
+
+    <nav>
+      <a href="index.html">Home</a> 
+      <a href="task2.html">Task 2</a> 
+      <a href="task3.html">Task 3</a> 
+      <a href="task4.html">Task 4</a> 
+      <a href="task5.html">Task 5</a> 
+    </nav>
+
+    <h2 class="titles">Student Grades</h2>
+
+    <table class="grades">
+        <tr>
+            <th>Name</th>
+            <th>Subject</th>
+            <th>Grade</th>
+        </tr>
+        <tr>
+            <td>John Pork</td>
+            <td>Physical Education</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>Erasyl Tileukesh</td>
+            <td>Discrete Math</td>
+            <td>B</td>
+        </tr>
+   
+        <tr class="row">
+            <td>Abylai Duissim</td>
+            <td>Calculus 2</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td colspan="2"><strong>Average Grade</strong></td>
+            <td><strong>B</strong></td>
+        </tr>
+    </table>
+
+    <h2 class="titles">Course Feedback Form</h2>
+
+    <div class="form">
+        <form>
+            <label>Full name:</label>
+            <input type="text" class="inputs" placeholder="Enter your name">
+
+            <label id="email">Email:</label>
+            <input type="email" class="inputs" placeholder="Enter your email">
+
+            <label>Select role:</label>
+            <select class="input">
+                <option>Student</option>
+                <option>Teacher</option>
+            </select>
+            <div class="radio-button">
+                <label>Are you satisfied with the course?</label>
+
+                <input type="radio" id="yes" name="satisfied" value="yes">
+                <label for="yes">Yes</label>
+                
+                <input type="radio" id="no" name="satisfied" value="no">
+                <label for="no">No</label>
+            </div>
+
+            <label>Comments:</label>
+            <textarea class="input" rows="4" placeholder="Your feedback:"></textarea>
+
+            <button type="submit" class="submit-button">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
