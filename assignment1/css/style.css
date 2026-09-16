@@ -2,7 +2,7 @@ body{
     font-family: Arial;
     margin:0;
     padding:0;
-    background-color:blanchedalmond
+    background-color:blanchedalmond;
 }
 
 h1{text-align:center;}
@@ -28,7 +28,7 @@ nav a{
     margin:20px;
 }
 nav a:hover{
-    color:blue;
+    color:darkgoldenrod;
 }
 
 .Photolar{
@@ -84,3 +84,83 @@ nav a:hover{
     background-color:burlywood;
     padding:20px;
 }
+.word1{
+    font-family: 'Montserrat', sans-serif;
+    float:left;
+    color:#d79e78;
+    text-align:left;
+    margin-top:5px;
+    margin-left:5%;
+    margin-bottom:30px;
+
+}
+.about{
+    font-family: 'Montserrat', sans-serif;
+    float:left;
+    width: 37%;
+    margin-right:5%;
+    margin-top:5px;
+    margin-bottom:30px;
+    color:#d79e78;
+     
+}
+
+.photoGoggins{
+    float: left;
+    width: 450px;
+    height: 400px;
+    margin-left: 5%;
+    border-radius: 50%;
+    border: 2px solid #d79e78;
+}
+.goggins-info {
+    float: right;
+    width: 50%;
+    margin-right:5%;
+    box-sizing: border-box;
+    margin-top:-20px;
+}
+
+.goggins-info p{
+    text-align: left;
+    font-size: 18px;
+    color:antiquewhite;
+    margin: 0 0 15px 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.goggins-info h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #d79e78;
+    text-align: left;
+    margin: 15px 0 10px 0;
+}
+
+.goggins-info ol, 
+.goggins-info ul {
+    text-align: left;
+    font-size: 17px;
+    color: antiquewhite;
+    padding-left: 20px;
+    margin: 0 0 15px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.goggins-info li {
+    margin-bottom: 16px;
+}
+.full{
+    display: inline-block;
+    background-color: #d79e78;
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+.full hover{
+    background-color:#d79e78;
+}
+
+
