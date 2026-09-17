@@ -244,3 +244,8 @@ nav a:hover{
 .submit-button:hover {
     background-color: darkgoldenrod;
 }
+
+ tr .special {
+    font-weight:bold;
+    color:green
+}
